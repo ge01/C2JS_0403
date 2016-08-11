@@ -17,27 +17,10 @@
   <body><!---->
 
     <!---->
-    <div class="container">
-      <div class="jumbotron">
-        <!--Opnening-->
-        <h3 class="text-center">
-          Enter an integer between 1 - 100 and I'll validate it and tell you if
-          it's even or odd.
-        </h3>
-
-        <form role="form">
-          <input type="enter-number" class="form-control" id="enter-number" placeholder="Enter number">
-          <button type="submit" class="btn btn-default" onclick="numFunction()">Submit</button>
-        </form>
-
-      </div>
-    </div>
-    <p id="is-valid"></p>
-
-
-
-
-
+    <p>Please input a number between 1 and 100:</p>
+    <input id="numb" placeholder="Enter number">
+    <button type="button" onclick="myFunction()">Submit</button>
+    <p id="demo"></p>
 
     <!-- NOTE: This tag connects the JS to our HTML-->
     <script src="app.js"></script>
